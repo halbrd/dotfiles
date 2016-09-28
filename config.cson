@@ -1,0 +1,42 @@
+"*":
+  "autocomplete-plus":
+    useCoreMovementCommands: false
+  core:
+    disabledPackages: [
+      "wrap-guide"
+    ]
+    ignoredNames: [
+      ".git"
+      ".hg"
+      ".svn"
+      ".DS_Store"
+      "._*"
+      "Thumbs.db"
+      "node_modules"
+    ]
+    packagesWithKeymapsDisabled: [
+      "merge-conflicts"
+    ]
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 12
+    nonWordCharacters: "/\\()\".:;<>~!@#$%^&*|+=[]{}`?…"
+    softWrap: true
+    softWrapHangingIndent: 1
+  "exception-reporting":
+    userId: "d0787b76-8a0e-47fb-b5d5-735371b0195a"
+  linter: {}
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false
+".source.ts":
+  editor:
+    softWrapHangingIndent: 1
+".source.tsx":
+  editor:
+    softWrapHangingIndent: 1
