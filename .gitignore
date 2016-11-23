@@ -1,0 +1,20 @@
+.apm
+blob-store
+compile-cache
+dev
+packages
+storage
+.node-gyp
+.npm
+
+.DS_Store
+
+# Vim stuff
+# swap files
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+# session
+Session.vim
+# temporary
+.netrwhist
+*~
