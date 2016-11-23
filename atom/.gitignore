@@ -1,0 +1,8 @@
+.apm
+blob-store
+compile-cache
+dev
+# packages # This stores packages and thus could get big, but I want it synced
+storage
+.node-gyp
+.npm
