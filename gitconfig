@@ -1,4 +1,7 @@
+# Setup
+# - put this file in ~/.gitconfig
+
+
 [user]
 	name = William Holt
 	email = halbrd@gmail.com
-

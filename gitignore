@@ -1,3 +1,7 @@
+# Setup
+# - put this file in ~/.config/git/ignore
+
+
 # Mac OS X hidden files
 .DS_Store
 
