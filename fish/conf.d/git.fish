@@ -7,7 +7,7 @@ abbr --add gaac "git add --all; and git diff --cached"
 abbr --add gcam "git commit --amend --no-edit"
 
 # reference for tagging
-function tag_help
+function help_git_tagging
   echo "list local tags      git tag"
   echo "pull remote tags     git fetch --tags"
   echo "create local tag     git tag -a -m 'tagging latest release' 0.0.0"
