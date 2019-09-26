@@ -1,10 +1,10 @@
 # these add to https://github.com/jhillyerd/plugin-git
 abbr --add ggpush "git push origin (__git.current_branch)"
 abbr --add ggpull "git pull origin (__git.current_branch)"
-alias gcm="echo for git checkout master use gcom"
 abbr --add gdl "git diff HEAD~ HEAD"
 abbr --add gaac "git add --all; and git diff --cached"
 abbr --add gcam "git commit --amend --no-edit"
+abbr --add gbd "git branch -d"
 
 # reference for tagging
 function help_git_tagging
