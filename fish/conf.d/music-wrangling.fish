@@ -1,11 +1,20 @@
-function ffpg --argument src_fmt dst_fmt
-  for file in (find . -name '*.$src_fmt')
-    mkdir -p (dirname $file)'_$dst_fmt'
+function ffpg --argument src_fmt dst_fmt src_path
+  if ! set -q src_path
+    set src_path .
+  end
 
-	if [ $dst_fmt = 'm4a' ]
-      ffmpeg -i $file -map 0:a -c:a aac -b:a 257k (dirname $file)'_$dst_fmt/'(basename $file)
+  for file in (find $src_path -name "*.$src_fmt")
+    mkdir -p (dirname $file)"_$dst_fmt"
+
+    echo "[$dst_fmt] <= $file"
+
+    if [ $dst_fmt = 'm4a' ]
+      ffmpeg -y -loglevel warning -i $file -map 0:a -c:a aac -b:a 257k (dirname $file)"_$dst_fmt/"(basename $file); or return
     else if [ $dst_fmt = 'mp3' ]
-      echo this is not implemented yet
+      ffmpeg -y -loglevel warning -i $file -q:a 0 -map_metadata 0 -id3v2_version 4 (dirname $file)"_$dst_fmt/"(basename $file); or return
+    else
+      echo unknown destination format
+      return
     end
   end
 end
