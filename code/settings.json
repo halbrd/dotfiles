@@ -1,0 +1,18 @@
+{
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.cursorBlinking": "smooth",
+    "editor.emptySelectionClipboard": false,
+    "editor.formatOnPaste": true,
+    "editor.rulers": [120],
+    "extensions.showRecommendationsOnlyOnDemand": true,
+    "files.autoSave": "afterDelay",
+    "files.hotExit": "off",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "telemetry.enableTelemetry": false,
+    "window.restoreWindows": "none",
+    "workbench.list.horizontalScrolling": true,
+    "workbench.startupEditor": "none",
+    "workbench.tree.indent": 20
+}
