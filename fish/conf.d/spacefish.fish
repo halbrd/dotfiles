@@ -1,4 +1,5 @@
 # general
+set SPACEFISH_PROMPT_ADD_NEWLINE false
 set SPACEFISH_PROMPT_ORDER user host dir git venv node rust package golang jobs line_sep char
 set SPACEFISH_RPROMPT_ORDER time
 
