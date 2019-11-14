@@ -1,6 +1,3 @@
-# Setup
-# - put this file in ~/.config/fish/functions/fish_prompt.fish
-
 function fish_prompt
 	# Store the exit code of the last command
 	set -g sf_exit_code $status

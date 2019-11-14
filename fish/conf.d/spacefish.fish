@@ -1,6 +1,6 @@
 # general
 set SPACEFISH_PROMPT_ADD_NEWLINE false
-set SPACEFISH_PROMPT_ORDER user host dir git venv node package golang jobs line_sep char
+set SPACEFISH_PROMPT_ORDER user host dir git venv node rust package golang jobs line_sep char
 set SPACEFISH_RPROMPT_ORDER time
 
 # user
@@ -18,24 +18,30 @@ set SPACEFISH_DIR_TRUNC_REPO false
 set SPACEFISH_DIR_COLOR blue
 
 # git
-set SPACEFISH_GIT_PREFIX 'working on '
+set SPACEFISH_GIT_PREFIX '\n• working on '
 
 # venv
-set SPACEFISH_VENV_PREFIX 'venv '
+set SPACEFISH_VENV_PREFIX '\n• venv '
 set SPACEFISH_VENV_SYMBOL ''
 
 # node
-set SPACEFISH_NODE_PREFIX 'node '
+set SPACEFISH_NODE_PREFIX '\n• node '
 set SPACEFISH_NODE_SYMBOL ''
+
+# rust
+set SPACEFISH_RUST_PREFIX '\n• 🦀 '
+set SPACEFISH_RUST_SYMBOL ''
 
 # package
 set SPACEFISH_PACKAGE_PREFIX ''
 
 # golang
-set SPACEFISH_GOLANG_PREFIX 'go '
+set SPACEFISH_GOLANG_PREFIX '\n• go '
 set SPACEFISH_GOLANG_SYMBOL ''
 
 # jobs
+set SPACEFISH_JOBS_PREFIX '\n• background jobs '
+set SPACEFISH_JOBS_SYMBOL 'running'
 
 # char
 set SPACEFISH_CHAR_SYMBOL '$'

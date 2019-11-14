@@ -1,0 +1,5 @@
+Put these files in here:
+
+    Windows:  %APPDATA%\Code\User\
+    macOS:    $HOME/Library/Application Support/Code/User/
+    Linux:    $HOME/.config/Code/User/

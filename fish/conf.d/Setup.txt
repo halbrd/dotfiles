@@ -1,2 +1,0 @@
-- put these files in ~/.config/fish/conf.d
-- disable unwanted files by appending .disabled to the file name

@@ -1,2 +1,0 @@
-- put these files in ~/.config/kitty
-- disable unwanted files by removing their include directive from kitty.conf
