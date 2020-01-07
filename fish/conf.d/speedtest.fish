@@ -1,6 +1,6 @@
 # internet speed test
 function netspeed
-  curl -s https://gist.githubusercontent.com/halbrd/bafbeab36770134dc181237792af458e/raw/7f2aab43b040cc2a90f9106500d85a3e2b9fc540/speedtest.py | python -
+  curl -s https://gist.githubusercontent.com/halbrd/bafbeab36770134dc181237792af458e/raw/9a58ccd5de7374e9720b0f117b79bf2028e6a4a2/speedtest.py | python -
 end
 
 # disk speed tests
