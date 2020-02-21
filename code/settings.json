@@ -15,5 +15,7 @@
     "workbench.list.horizontalScrolling": true,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1
 }
