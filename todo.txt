@@ -1,0 +1,3 @@
+List of software to externalize config for
+
+- Flameshot (~/.config/Dharkael/flameshot.ini)

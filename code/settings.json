@@ -15,7 +15,10 @@
     "workbench.list.horizontalScrolling": true,
     "workbench.startupEditor": "none",
     "workbench.tree.indent": 20,
-    "window.newWindowDimensions": "inherit",
     "explorer.confirmDragAndDrop": false,
-    "window.zoomLevel": 1
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 1,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.wordWrap": "on"
 }
