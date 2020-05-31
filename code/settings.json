@@ -18,6 +18,7 @@
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "window.zoomLevel": 1,
+    "window.newWindowDimensions": "inherit",
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.wordWrap": "on",
     "latex-workshop.message.update.show": false,
