@@ -19,5 +19,7 @@
     "explorer.confirmDelete": false,
     "window.zoomLevel": 1,
     "editor.multiCursorModifier": "ctrlCmd",
-    "editor.wordWrap": "on"
+    "editor.wordWrap": "on",
+    "latex-workshop.message.update.show": false,
+    "latex-workshop.view.pdf.viewer": "tab"
 }
