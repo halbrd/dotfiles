@@ -14,5 +14,8 @@
     "window.restoreWindows": "none",
     "workbench.list.horizontalScrolling": true,
     "workbench.startupEditor": "none",
-    "workbench.tree.indent": 20
+    "workbench.tree.indent": 20,
+    "window.newWindowDimensions": "inherit",
+    "explorer.confirmDragAndDrop": false,
+    "window.zoomLevel": 1
 }
