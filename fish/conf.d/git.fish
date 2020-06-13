@@ -1,5 +1,6 @@
 abbr --add gst "git status"
 abbr --add gcb "git checkout -b"
+abbr --add ga "git add"
 abbr --add gaa "git add --all"
 abbr --add gdca "git diff --cached"
 abbr --add gcm "git commit -m"
