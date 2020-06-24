@@ -11,4 +11,6 @@ abbr --add gdl 'git diff HEAD~ HEAD'
 abbr --add gbd 'git branch -d'
 abbr --add gcam 'git commit --amend'
 abbr --add gcam! 'git commit --amend --no-edit'
+abbr --add gco 'git checkout'
+abbr --add gcom 'git checkout master'
 # git log abbreviation intentionally excluded until I have a favourite invokation
