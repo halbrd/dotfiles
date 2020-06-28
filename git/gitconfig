@@ -5,3 +5,5 @@
 [user]
 	name = William Holt
 	email = halbrd@gmail.com
+[pull]
+	rebase = false
