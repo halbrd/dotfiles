@@ -2,3 +2,24 @@
 # - put/symlink this file in ~/.config/starship.toml
 
 
+
+[hostname]
+ssh_only = true
+
+[username]
+show_always = true
+
+[directory]
+prefix = ''
+truncation_length = 0
+
+[character]
+symbol = '$'
+style_success = 'bold white'
+
+
+[aws]
+disabled = true
+
+[cmd_duration]
+disabled = true
