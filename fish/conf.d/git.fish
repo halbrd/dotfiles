@@ -15,3 +15,4 @@ abbr --add gb 'git branch'
 abbr --add gco 'git checkout'
 abbr --add gcom 'git checkout master'
 # git log abbreviation intentionally excluded until I have a favourite invokation
+abbr --add gfa 'git fetch --all --prune'
