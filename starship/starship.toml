@@ -10,7 +10,7 @@ ssh_only = true
 show_always = true
 
 [directory]
-prefix = ''
+format = "[$path]($style)[$read_only]($read_only_style) "
 truncation_length = 0
 
 [character]
