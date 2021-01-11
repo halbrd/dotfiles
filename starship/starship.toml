@@ -14,8 +14,8 @@ format = "[$path]($style)[$read_only]($read_only_style) "
 truncation_length = 0
 
 [character]
-symbol = '$'
-style_success = 'bold white'
+success_symbol = '[\$](white)'
+error_symbol = '[\$](red)'
 
 
 [aws]
