@@ -1,1 +1,2 @@
-status --is-interactive; and source (pyenv init -|psub)
+status is-login; and pyenv init --path | source
+pyenv init --path | source
