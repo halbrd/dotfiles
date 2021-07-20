@@ -22,5 +22,6 @@
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.wordWrap": "on",
     "latex-workshop.message.update.show": false,
-    "latex-workshop.view.pdf.viewer": "tab"
+    "latex-workshop.view.pdf.viewer": "tab",
+    "workbench.editor.untitled.hint": "hidden"
 }
